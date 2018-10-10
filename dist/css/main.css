@@ -13,9 +13,9 @@
   font-style: normal;
 }
 
-* {
+/* * {
   border: green 1px solid;
-}
+} */
 
 .c-output {
   text-align: center;
@@ -65,12 +65,12 @@
     margin-bottom: 0px;
   }
 
-  .c-excuse-container {
-    height: 50px;
-  }
-
   .c-excuse {
     font-family: 'copperplate';
+    text-align: center;
+    font-size: 30pt;
+    color: #000000;
+    
   }
 
   .c-output::after {
@@ -86,16 +86,47 @@
   body {
     background-color: #000000;
   }
-/* 
-  .c-face {
-    width: 100px;
-    height: 100px;
-    margin: 90px auto 10px;
-    background: url(../img/face_frown.svg);
-  } */
 
-  .c-output::after {
-	content: "Landscape Mode";
+  .c-title-container {
+    /* background-image: url(../img/face_frown.svg); */
+    width: 100%;
+    text-align: center;
+    /* height: 100px; */
+    /* margin: 10px auto 10px; */
+    background: url(../img/face_smile.svg);
   }
+
+  .c-title {
+    font-family: 'ninja_rushregular';
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30pt;
+  }
+
+  .c-subtitle-container {
+    background-color: #FFF;
+    height: 32px;
+  }
+
+  .c-subtitle {
+    color: #000000;
+    font-family: 'ninja_rushregular';
+    text-align: center;
+    font-size: 14pt;
+    padding-top: 8px;
+    margin-bottom: 0px;
+  }
+
+  .c-excuse {
+    font-family: 'copperplate';
+    text-align: center;
+    font-size: 30pt;
+    color: #FFF;
+    
+  }
+
 
 }
