@@ -1,0 +1,57 @@
+* {
+  border: green 1px solid;
+}
+
+.c-output {
+  text-align: center;
+}
+
+.l-wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+/* Portrait */
+@media only screen and (orientation:portrait) {
+
+  body {
+    background-color: #FFF;
+  }
+
+  .c-face {
+    /* background-image: url(../img/face_frown.svg); */
+    width: 100px;
+    height: 100px;
+    margin: 90px auto 10px;
+    background: url(../img/face_smile.svg);
+  }
+
+  .c-output::after {
+	  content: "Portrait Mode";
+  }
+
+}
+
+/* Landscape */
+@media only screen and (orientation:landscape) {
+
+
+  body {
+    background-color: #000000;
+  }
+
+  .c-face {
+    /* background-image: url(../img/face_frown.svg); */
+    width: 100px;
+    height: 100px;
+    margin: 90px auto 10px;
+    background: url(../img/face_frown.svg);
+  }
+
+  .c-output::after {
+	content: "Landscape Mode";
+}
+
+
+
+}
