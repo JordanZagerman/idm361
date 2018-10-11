@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'ninja_rushregular';
   src: url('../../assets/fonts/ninja_rush-webfont.woff2') format('woff2'),
-       url('../../assets/fonts/ninja_rush-webfont.woff') format('woff');
+    url('../../assets/fonts/ninja_rush-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,9 +13,9 @@
   font-style: normal;
 }
 
-/* * {
+* {
   border: green 1px solid;
-} */
+}
 
 .c-output {
   text-align: center;
@@ -23,6 +23,15 @@
 
 .l-wrapper {
   margin: 0 auto;
+}
+
+.c-subtitle-background-flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 /* Portrait */
@@ -33,12 +42,12 @@
   }
 
   .c-title-container {
-    /* background-image: url(../img/face_frown.svg); */
+    background-image: url(../img/face_frown.svg);
     width: 100%;
     text-align: center;
     /* height: 100px; */
     /* margin: 10px auto 10px; */
-    background: url(../img/face_smile.svg);
+
   }
 
   .c-title {
@@ -70,11 +79,11 @@
     text-align: center;
     font-size: 30pt;
     color: #000000;
-    
+
   }
 
   .c-output::after {
-	  content: "Portrait Mode";
+    content: "Portrait Mode";
   }
 
 }
@@ -93,8 +102,8 @@
     text-align: center;
     /* height: 100px; */
     /* margin: 10px auto 10px; */
-    background: url(../img/face_smile.svg);
   }
+
 
   .c-title {
     font-family: 'ninja_rushregular';
@@ -109,6 +118,21 @@
   .c-subtitle-container {
     background-color: #FFF;
     height: 32px;
+
+  }
+
+  .c-subtitle-container-now {
+    background-image: url(../img/now.svg);
+  }
+
+  .c-subtitle-background {
+    height: 30px;
+    width: 30px;
+    border: red 1px solid;
+    fill: white;
+    display: inline-block;
+    padding-right: 20px;
+
   }
 
   .c-subtitle {
@@ -125,8 +149,14 @@
     text-align: center;
     font-size: 30pt;
     color: #FFF;
-    
+    max-width: 90vw;
+    margin: 0 auto;
+    display: inline-block;
   }
 
+  .c-excuse-container {
+    text-align: center;
+    padding-top: 10px;
+    border: purple 1px solid;
 
 }
