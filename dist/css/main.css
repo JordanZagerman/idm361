@@ -14,7 +14,7 @@
 }
 
 * {
-  border: green 1px solid;
+  /* border: green 1px solid; */
 }
 
 .c-output {
@@ -32,6 +32,14 @@
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* Portrait */
@@ -128,7 +136,7 @@
   .c-subtitle-background {
     height: 30px;
     width: 30px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     fill: white;
     display: inline-block;
     padding-right: 20px;
@@ -157,6 +165,7 @@
   .c-excuse-container {
     text-align: center;
     padding-top: 10px;
-    border: purple 1px solid;
+    /* border: purple 1px solid; */
 
+}
 }
