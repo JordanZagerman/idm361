@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body onload="loadHomePage()">
   <!-- PAGE CONTENT -->
   <div class="l-wrapper">
     <div class="c-title-contianer">
@@ -39,7 +39,7 @@
     </div>
 
     <div class="c-excuse-container c-excuse-container-soon">
-      <p class="c-excuse c-excuse-soon" id="showLaterPhrase">Waiting on a call from a friend in crisis</p>
+      <p class="c-excuse c-excuse-soon" id="showLaterPhrase"></p>
     </div>
 
     <!-- LATER -->
@@ -48,14 +48,13 @@
     </div>
 
     <div class="c-excuse-container c-excuse-container-later">
-      <p class="c-excuse c-excuse-later" id="showFlakePhrase">Gotta sell a craigslist painting around ##:##, but it
-        might change.</p>
+      <p class="c-excuse c-excuse-later" id="showFlakePhrase"></p>
     </div>
 
 
   </div>
   <footer>
-    <button id="generatorBtn" type="button">Get quotes!</button>
+    <button onclick="loadHomePage()" id="generatorBtn" type="button">Get quotes!</button>
   </footer>
 
   <!-- JAVASCRIPT-->
