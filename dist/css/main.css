@@ -42,6 +42,20 @@ footer {
   text-align: center;
 }
 
+.get-new-quotes-button {
+  background-color: green;
+  height: 32px;
+  color: #FFF;
+  font-family: 'ninja_rushregular';
+  text-align: center;
+  font-size: 14pt;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+  border: none;
+}
+
 /* Portrait */
 @media only screen and (orientation:portrait) {
 
