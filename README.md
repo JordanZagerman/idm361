@@ -1,5 +1,7 @@
-# 👨🏽‍💻 IDM361 - Interactive App Design I
+# Excuse Me
 
-## Overview
+Excuse Me is a web app designed for people that need excuses for all of life's excuse-worthy situations. At the tap of a button, users will receive:
 
-This course focuses on creating user experience optimized for mobile devices. Students learn to build unique applications that take advantage of gestures and accelerometers. Special consideration is given to limited screen real estate, low bandwidth internet access, no internet access, and touch screen devices.
+  - Urgent excuses for people that want to leave a situation NOW.
+  - Lurking excuses that people can say in order to smoothly leave a situation SOON.
+  - And lastly, excuses one can give before an event, for anyone that wants to FLAKE.
